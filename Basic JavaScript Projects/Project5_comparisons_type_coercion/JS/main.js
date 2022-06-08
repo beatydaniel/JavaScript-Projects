@@ -2,6 +2,14 @@ document.write(typeof 6)
 document.write("10"+ 200)
 document.write(10 < 5)
 document.write(10 > 5)
+console.log(5 + 5);
+console.log(15>20);
+document.write(20 == 20);
+document.write(1 == 12);
+document.write(4 === 4);
+document.write(3 === "six");
+document.write(2 === "two");
+document.write(5 === 6);
 
 function my_function() {
     document.getElementById("Test").innerHTML= 0/0;
