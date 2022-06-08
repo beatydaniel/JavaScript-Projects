@@ -1,11 +1,11 @@
 var X = 5;
 X++;
 document.write(X);
-\n
-
 var Y = 5;
 Y--;
-document.write(Y);
+document.write ('<br>'+ Y);
+
+window.alert(Math.random() * 100 );
 
 function addition_function() {
     var addition = 5 + 5;
