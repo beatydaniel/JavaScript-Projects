@@ -10,7 +10,10 @@ document.write(4 === 4);
 document.write(3 === "six");
 document.write(2 === "two");
 document.write(5 === 6);
-
+document.write(10 > 2 && 5>3);
+document.write(11>20 && 12>3);
+document.write(11>20 || 12>3);
+document.write(10<2 || 5<3);
 function my_function() {
     document.getElementById("Test").innerHTML= 0/0;
 }
