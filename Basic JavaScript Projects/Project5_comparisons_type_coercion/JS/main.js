@@ -32,3 +32,10 @@ function my_function4(){
 function my_function5(){
     document.getElementById("Test").innerHTML= (-3E310)
 }
+
+function not_function(){
+    document.getElementById("Test").innerHTML= ! (20> 12);
+}
+function not_function2(){
+    document.getElementById("Test").innerHTML = ! (3 > 23);
+}
