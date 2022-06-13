@@ -1,14 +1,14 @@
 body {
-    background-color: darkred;
+    background-color: darkred;              /* creates a background color of the page */
 }
 h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: green;
+    color: green;               /* Sets the font and the color on all heading 1s. */
 }
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkorange;
+    color: darkorange;          /* Sets the font and the color on all heading 3s. */
 }
 
 div {
@@ -16,57 +16,57 @@ div {
     color: gold;
 }
 
-#menuBG {
+#menuBG {                       /*sets where the menu is located on the page */
     width: 400px;
     height: 470px;
     margin:10px auto;
 }
 
-#frmMenu {
+#frmMenu {                      /* Sets the size of the menu frame */
     width: 600px;
     height: 200px;
 }
 
-#totalPrice {
+#totalPrice {                   /*sets the position and size of where the total price appears */
     width: 200px;
     height: 190px;
     margin: 20 auto;
     float: right;
 }
 
-.left {
+.left {                             /* sets the location and size of the left part of the menu */
     width: 200px;
     height: 200px;
     float: left;
 }
 
-.center {
+.center {                           /* sets the location and size of the center part of the menu */
     width: 200px;
     height: 200px;
     float: left;
     
 }
 
-.right {
+.right {                            /* sets the location and size of the right part of the menu */
     width: 200px;
     height: 200px;
     float: right;
 }
 
-#showText {
+#showText {                             /* Sets the ordered text position and total */
     width: 200px;
     height: 190px;
     margin: 0px auto;
     float: left;
 }
 
-#cart {
+#cart {                             /* Sets the position of what you ordered on the page */
     top:0;margin: 0px auto;
     width: 400px;
     height: 200px;
 }
 
-#btnOrder {
+#btnOrder {                                     /* Sets the position and size of the place order button */
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
