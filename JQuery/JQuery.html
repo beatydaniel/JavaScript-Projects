@@ -5,9 +5,9 @@
     </head>
     <body>
 
-    </body>
-    <script>
-        $(document).ready(function() {
+    </body> 
+    <script>        
+        $(document).ready(function() {              /* The $ is refering to the Jquery javascript */
             $("html").append(
                 "<body>\
                     <div id='container;'>\
@@ -22,12 +22,12 @@
                     </body>"
             );
             $("p").click(function(){
-                    console.log("You clciked a paragraph!");
+                    console.log("You clciked a paragraph!"); /*created a function that displays this text in the console */
                 });
             $("#4").hide();
-            $("#2").css({"color":"red"});
-            $("#3").click(function() {
-                $('h1').hide();
+            $("#2").css({"color":"red"}); /*the # indicates which paragraph im changing */
+            $("#3").click(function() {  /* when paragraph 3 is clicked it hides heading 1 and shows paragraph 4*/
+                $('h1').hide();            
                 $('#4').show();
                 
             });
