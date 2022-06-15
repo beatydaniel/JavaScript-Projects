@@ -7,11 +7,21 @@
 <body>
 
     <p id="test"></p>
+    <p id="myName"></p>
+    <p id="myName2"></p>
 
 <script>
     var obj = {"name":"Daniel", "age":27, "city":"Bakersfield"};
     var json = JSON.stringify(obj);
   document.getElementById("test").innerHTML = json;
+
+    var name = '{"name": "Daniel", "age":27, "city": "Bakersfiled"}';
+    var JSONstring= JSON.parse(name);
+    document.getElementById("myName").innerHTML = JSONstring.name + " is my name and I am " + JSONstring.age; 
+    
+    localStorage.setItem("name", "Scott");
+    document.getElementById("myName2").innerHTML = localStorage.getItem("name");
+
 </script>
     
 

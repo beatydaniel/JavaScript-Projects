@@ -42,5 +42,9 @@ footer {
     border-style: double;
     position: fixed;
     bottom: 0;
-    width: 50%;
+    width: 100%;
+}
+
+.remove {
+    padding-bottom: 5px;
 }
